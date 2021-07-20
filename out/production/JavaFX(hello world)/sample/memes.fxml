@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="492.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MemesController">
+    <children>
+        <AnchorPane prefHeight="91.0" prefWidth="720.0" style="-fx-background-color: #35a2b8;">
+            <children>
+                <Label layoutX="305.0" layoutY="26.0" text="Memes">
+                    <font>
+                        <Font name="Tahoma Bold" size="31.0" />
+                    </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop color="#00ff46" />
+                        <Stop color="#00ecff" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+                </Label>
+            </children>
+        </AnchorPane>
+      <ImageView fx:id="casino_img" fitHeight="150.0" fitWidth="200.0" layoutX="260.0" layoutY="267.0" onMouseClicked="#setCasino_img" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/jc-UyOjelMA.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shrek_img" fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="101.0" onMouseClicked="#setShrek_img" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/v62TR8vacvQ.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="goblin_img" fitHeight="192.0" fitWidth="236.0" layoutX="470.0" layoutY="295.0" onMouseClicked="#setGoblin_img" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/q2UeytVH8-I.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ricardo_img" fitHeight="166.0" fitWidth="199.0" layoutX="39.0" layoutY="101.0" onMouseClicked="#setRicardo_img" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@assets/8_G2LvZgEvs.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="return_button" layoutX="305.0" layoutY="429.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="111.0" text="Return">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="gachi_img" fitHeight="146.0" fitWidth="236.0" layoutX="470.0" layoutY="109.0" onMouseClicked="#setGachi_img">
+         <image>
+            <Image url="@assets/handclap.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="stalker_img" fitHeight="192.0" fitWidth="223.0" layoutX="14.0" layoutY="276.0" onMouseClicked="#setStalker_img">
+         <image>
+            <Image url="@assets/stalker.jpg" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
