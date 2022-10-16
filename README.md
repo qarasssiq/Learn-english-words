@@ -13,12 +13,4 @@
 ## Приложение
 Главное окно. В центре появляется случайное слово из списка, в поле ввода нужно написать его перевод и после проверить свой ответ. Также ведётся статистика верных/неверных ответов за сессию.
 
-![main](https://user-images.githubusercontent.com/57320850/192914752-909b7567-07fa-4439-a9fa-04fa81e15cd6.jpg)
-
-Неверный ответ.
-
-![wrong](https://user-images.githubusercontent.com/57320850/192914874-a119b374-6b38-443a-a04f-30a7b997c1b0.jpg)
-
-Верный ответ.
-
-![correct](https://user-images.githubusercontent.com/57320850/192914896-92be816a-2025-4196-a5ec-86007b6251a7.jpg)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/57320850/196032138-bdf372c3-ad8e-4a8a-b107-2558484e074a.gif)
